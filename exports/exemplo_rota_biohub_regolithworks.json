@@ -1,0 +1,26 @@
+{
+    "sistema": "AstraLink",
+    "criterio": "risco",
+    "peso_otimizado": 3,
+    "caminho_codigos": [
+        "MAN",
+        "NEXUS4",
+        "ATLAS",
+        "LFACT"
+    ],
+    "caminho_nomes": [
+        "BioHub Amazônia",
+        "Satélite Nexus-4",
+        "Relay Orbital Atlas",
+        "Fábrica Lunar RegolithWorks"
+    ],
+    "totais": {
+        "distancia_km": 417800,
+        "tempo": 18.0,
+        "custo": 22.8,
+        "risco": 3,
+        "energia": 420,
+        "trechos": 3,
+        "risco_medio": 1.0
+    }
+}
