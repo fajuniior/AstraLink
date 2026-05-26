@@ -1,0 +1,30 @@
+# Bytecode e cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos de sistema e editores
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Pacotes gerados
+*.zip
+
+# Cache de testes
+.pytest_cache/
+.coverage
+htmlcov/
