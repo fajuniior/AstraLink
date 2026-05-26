@@ -1,0 +1,108 @@
+MAPA TEXTUAL DA REDE ASTRALINK
+========================================================================
+Cada linha mostra um ativo e suas conexões diretas.
+
+[AGRO] Satélite AgroIA
+  -> ATLAS(3/10 risco, 0.9h), MAN(2/10 risco, 0.5h), NAI(2/10 risco, 0.5h)
+
+[AST] Entreposto Asteroide Ícaro
+  -> MARS(9/10 risco, 500.0h), METAL(8/10 risco, 120.0h)
+
+[ATA] Fazenda Solar Atacama
+  -> ENERGY(4/10 risco, 1.5h), GRU(2/10 risco, 3.5h)
+
+[ATLAS] Relay Orbital Atlas
+  -> AGRO(3/10 risco, 0.9h), CLIMA(3/10 risco, 0.9h), DEEP(5/10 risco, 4.0h), ENERGY(3/10 risco, 0.7h), LFACT(1/10 risco, 16.4h), NEXUS4(1/10 risco, 1.0h), NSEA(4/10 risco, 1.2h)
+
+[CAPE] Complexo Cabo Canaveral
+  -> FUEL(5/10 risco, 2.6h), KOUROU(3/10 risco, 6.0h), NEXUS4(5/10 risco, 2.0h), TOUR(7/10 risco, 34.0h)
+
+[CLIMA] Constelação AuroraClima
+  -> ATLAS(3/10 risco, 0.9h), SAR(1/10 risco, 0.2h), SVAL(2/10 risco, 0.4h)
+
+[DEEP] Backbone Deep Space
+  -> ATLAS(5/10 risco, 4.0h), MARS(7/10 risco, 20.0h), PACIFIC(5/10 risco, 4.0h), TUG(6/10 risco, 18.0h)
+
+[ENERGY] Usina Solar Orbital Helios
+  -> ATA(4/10 risco, 1.5h), ATLAS(3/10 risco, 0.7h), FUEL(4/10 risco, 1.2h), KOUROU(4/10 risco, 1.4h)
+
+[FOUNDRY] Microfábrica Orbital Vulcan
+  -> FUEL(2/10 risco, 0.4h), ISS(2/10 risco, 0.3h)
+
+[FUEL] Depósito Propelente LEO
+  -> CAPE(5/10 risco, 2.6h), ENERGY(4/10 risco, 1.2h), FOUNDRY(2/10 risco, 0.4h), SHIELD(2/10 risco, 0.4h), TUG(3/10 risco, 0.5h)
+
+[GATE] Gateway Lunar Artemis
+  -> ICE(4/10 risco, 2.0h), LFACT(4/10 risco, 1.8h), LIA(3/10 risco, 1.2h), TOUR(4/10 risco, 1.1h), TUG(6/10 risco, 28.0h)
+
+[GRU] Porto Espacial Atlântico-BR
+  -> ATA(2/10 risco, 3.5h), KOUROU(3/10 risco, 5.0h), MAN(2/10 risco, 4.0h)
+
+[ICE] Mina de Gelo Shackleton
+  -> GATE(4/10 risco, 2.0h), LFACT(3/10 risco, 1.0h), ROVER(2/10 risco, 0.5h)
+
+[ISS] Laboratório Orbital Aster
+  -> FOUNDRY(2/10 risco, 0.3h), TOK(5/10 risco, 2.3h)
+
+[KOUROU] Plataforma Equatorial Kourou
+  -> CAPE(3/10 risco, 6.0h), ENERGY(4/10 risco, 1.4h), GRU(3/10 risco, 5.0h), NEXUS5(5/10 risco, 2.1h)
+
+[LFACT] Fábrica Lunar RegolithWorks
+  -> ATLAS(1/10 risco, 16.4h), GATE(4/10 risco, 1.8h), ICE(3/10 risco, 1.0h), LIA(2/10 risco, 0.4h), METAL(3/10 risco, 0.9h)
+
+[LIA] Centro IA LunaMind
+  -> GATE(3/10 risco, 1.2h), LFACT(2/10 risco, 0.4h), ROVER(2/10 risco, 0.6h)
+
+[MAN] BioHub Amazônia
+  -> AGRO(2/10 risco, 0.5h), GRU(2/10 risco, 4.0h), NEXUS4(1/10 risco, 0.6h)
+
+[MARS] Relé Marte Phobos
+  -> AST(9/10 risco, 500.0h), DEEP(7/10 risco, 20.0h)
+
+[MEDSAT] Satélite MedLink
+  -> MUM(2/10 risco, 0.6h), PACIFIC(3/10 risco, 0.8h)
+
+[METAL] Refinaria Astrometal
+  -> AST(8/10 risco, 120.0h), LFACT(3/10 risco, 0.9h)
+
+[MUM] Rede Médica Mumbai
+  -> MEDSAT(2/10 risco, 0.6h), NAI(3/10 risco, 7.0h)
+
+[NAI] Hub Climático Nairobi
+  -> AGRO(2/10 risco, 0.5h), MUM(3/10 risco, 7.0h)
+
+[NEXUS4] Satélite Nexus-4
+  -> ATLAS(1/10 risco, 1.0h), CAPE(5/10 risco, 2.0h), MAN(1/10 risco, 0.6h), NEXUS5(1/10 risco, 0.2h), SHIELD(1/10 risco, 0.2h)
+
+[NEXUS5] Satélite Nexus-5
+  -> KOUROU(5/10 risco, 2.1h), NEXUS4(1/10 risco, 0.2h), PACIFIC(3/10 risco, 1.0h), SHIELD(1/10 risco, 0.2h)
+
+[NSEA] Parque Eólico Mar do Norte
+  -> ATLAS(4/10 risco, 1.2h), SVAL(2/10 risco, 3.0h)
+
+[PACIFIC] Relay Orbital Pacífico
+  -> DEEP(5/10 risco, 4.0h), MEDSAT(3/10 risco, 0.8h), NEXUS5(3/10 risco, 1.0h), SAR(3/10 risco, 0.8h)
+
+[ROVER] Frota Rover Minerva
+  -> ICE(2/10 risco, 0.5h), LIA(2/10 risco, 0.6h)
+
+[SAR] Satélite SAR Emergência
+  -> CLIMA(1/10 risco, 0.2h), PACIFIC(3/10 risco, 0.8h), SYD(2/10 risco, 0.6h)
+
+[SHIELD] Escudo Anti-Detritos LEO
+  -> FUEL(2/10 risco, 0.4h), NEXUS4(1/10 risco, 0.2h), NEXUS5(1/10 risco, 0.2h)
+
+[SVAL] Estação Polar Svalbard
+  -> CLIMA(2/10 risco, 0.4h), NSEA(2/10 risco, 3.0h)
+
+[SYD] Base Drone Oceania
+  -> SAR(2/10 risco, 0.6h), TOK(4/10 risco, 9.5h)
+
+[TOK] Centro Robótico Tóquio
+  -> ISS(5/10 risco, 2.3h), SYD(4/10 risco, 9.5h)
+
+[TOUR] Terminal Turismo Orbital Selene
+  -> CAPE(7/10 risco, 34.0h), GATE(4/10 risco, 1.1h)
+
+[TUG] Rebocador Cislunar Atlas
+  -> DEEP(6/10 risco, 18.0h), FUEL(3/10 risco, 0.5h), GATE(6/10 risco, 28.0h)
