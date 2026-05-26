@@ -1,0 +1,90 @@
+graph LR
+    GRU["GRU<br/>Porto Espacial Atlântico-BR"]
+    CAPE["CAPE<br/>Complexo Cabo Canaveral"]
+    KOUROU["KOUROU<br/>Plataforma Equatorial Kourou"]
+    SVAL["SVAL<br/>Estação Polar Svalbard"]
+    NAI["NAI<br/>Hub Climático Nairobi"]
+    MAN["MAN<br/>BioHub Amazônia"]
+    MUM["MUM<br/>Rede Médica Mumbai"]
+    TOK["TOK<br/>Centro Robótico Tóquio"]
+    SYD["SYD<br/>Base Drone Oceania"]
+    ATA["ATA<br/>Fazenda Solar Atacama"]
+    NSEA["NSEA<br/>Parque Eólico Mar do Norte"]
+    NEXUS4["NEXUS4<br/>Satélite Nexus-4"]
+    NEXUS5["NEXUS5<br/>Satélite Nexus-5"]
+    CLIMA["CLIMA<br/>Constelação AuroraClima"]
+    ISS["ISS<br/>Laboratório Orbital Aster"]
+    FOUNDRY["FOUNDRY<br/>Microfábrica Orbital Vulcan"]
+    FUEL["FUEL<br/>Depósito Propelente LEO"]
+    ATLAS["ATLAS<br/>Relay Orbital Atlas"]
+    PACIFIC["PACIFIC<br/>Relay Orbital Pacífico"]
+    SHIELD["SHIELD<br/>Escudo Anti-Detritos LEO"]
+    MEDSAT["MEDSAT<br/>Satélite MedLink"]
+    AGRO["AGRO<br/>Satélite AgroIA"]
+    SAR["SAR<br/>Satélite SAR Emergência"]
+    ENERGY["ENERGY<br/>Usina Solar Orbital Helios"]
+    GATE["GATE<br/>Gateway Lunar Artemis"]
+    ICE["ICE<br/>Mina de Gelo Shackleton"]
+    LFACT["LFACT<br/>Fábrica Lunar RegolithWorks"]
+    LIA["LIA<br/>Centro IA LunaMind"]
+    ROVER["ROVER<br/>Frota Rover Minerva"]
+    TOUR["TOUR<br/>Terminal Turismo Orbital Selene"]
+    METAL["METAL<br/>Refinaria Astrometal"]
+    AST["AST<br/>Entreposto Asteroide Ícaro"]
+    MARS["MARS<br/>Relé Marte Phobos"]
+    DEEP["DEEP<br/>Backbone Deep Space"]
+    TUG["TUG<br/>Rebocador Cislunar Atlas"]
+    AGRO ---|"Risco 2/10 · 0.5h"| NAI
+    AGRO ---|"Risco 2/10 · 0.5h"| MAN
+    AGRO ---|"Risco 3/10 · 0.9h"| ATLAS
+    AST ---|"Risco 8/10 · 120.0h"| METAL
+    AST ---|"Risco 9/10 · 500.0h"| MARS
+    ATA ---|"Risco 2/10 · 3.5h"| GRU
+    ATA ---|"Risco 4/10 · 1.5h"| ENERGY
+    ATLAS ---|"Risco 4/10 · 1.2h"| NSEA
+    ATLAS ---|"Risco 1/10 · 1.0h"| NEXUS4
+    ATLAS ---|"Risco 3/10 · 0.9h"| CLIMA
+    ATLAS ---|"Risco 1/10 · 16.4h"| LFACT
+    ATLAS ---|"Risco 5/10 · 4.0h"| DEEP
+    ATLAS ---|"Risco 3/10 · 0.7h"| ENERGY
+    CAPE ---|"Risco 3/10 · 6.0h"| KOUROU
+    CAPE ---|"Risco 5/10 · 2.0h"| NEXUS4
+    CAPE ---|"Risco 7/10 · 34.0h"| TOUR
+    CAPE ---|"Risco 5/10 · 2.6h"| FUEL
+    CLIMA ---|"Risco 2/10 · 0.4h"| SVAL
+    CLIMA ---|"Risco 1/10 · 0.2h"| SAR
+    DEEP ---|"Risco 7/10 · 20.0h"| MARS
+    DEEP ---|"Risco 6/10 · 18.0h"| TUG
+    DEEP ---|"Risco 5/10 · 4.0h"| PACIFIC
+    ENERGY ---|"Risco 4/10 · 1.2h"| FUEL
+    ENERGY ---|"Risco 4/10 · 1.4h"| KOUROU
+    FOUNDRY ---|"Risco 2/10 · 0.3h"| ISS
+    FOUNDRY ---|"Risco 2/10 · 0.4h"| FUEL
+    FUEL ---|"Risco 3/10 · 0.5h"| TUG
+    FUEL ---|"Risco 2/10 · 0.4h"| SHIELD
+    GATE ---|"Risco 6/10 · 28.0h"| TUG
+    GATE ---|"Risco 4/10 · 2.0h"| ICE
+    GATE ---|"Risco 4/10 · 1.8h"| LFACT
+    GATE ---|"Risco 3/10 · 1.2h"| LIA
+    GATE ---|"Risco 4/10 · 1.1h"| TOUR
+    GRU ---|"Risco 2/10 · 4.0h"| MAN
+    GRU ---|"Risco 3/10 · 5.0h"| KOUROU
+    ICE ---|"Risco 3/10 · 1.0h"| LFACT
+    ICE ---|"Risco 2/10 · 0.5h"| ROVER
+    ISS ---|"Risco 5/10 · 2.3h"| TOK
+    KOUROU ---|"Risco 5/10 · 2.1h"| NEXUS5
+    LFACT ---|"Risco 3/10 · 0.9h"| METAL
+    LFACT ---|"Risco 2/10 · 0.4h"| LIA
+    LIA ---|"Risco 2/10 · 0.6h"| ROVER
+    MAN ---|"Risco 1/10 · 0.6h"| NEXUS4
+    MEDSAT ---|"Risco 2/10 · 0.6h"| MUM
+    MEDSAT ---|"Risco 3/10 · 0.8h"| PACIFIC
+    MUM ---|"Risco 3/10 · 7.0h"| NAI
+    NEXUS4 ---|"Risco 1/10 · 0.2h"| NEXUS5
+    NEXUS4 ---|"Risco 1/10 · 0.2h"| SHIELD
+    NEXUS5 ---|"Risco 3/10 · 1.0h"| PACIFIC
+    NEXUS5 ---|"Risco 1/10 · 0.2h"| SHIELD
+    NSEA ---|"Risco 2/10 · 3.0h"| SVAL
+    PACIFIC ---|"Risco 3/10 · 0.8h"| SAR
+    SAR ---|"Risco 2/10 · 0.6h"| SYD
+    SYD ---|"Risco 4/10 · 9.5h"| TOK
