@@ -1,5 +1,21 @@
 # AstraLink
 
+## Integrantes
+
+| Nome | RM |
+|---|---|
+| Fabio Pereira Rogério Júnior | RM564005 |
+| Sebastian Iriarte Gonzales | RM563619 |
+| Lucas Oliveira Santos | RM563617 |
+| Gabriel dos Santos Cardoso | RM562103 |
+| Arthur Albertini | RM565954 |
+
+---
+
+**FIAP – Engenharia de Software**
+
+**Global Solution 2026 – Dynamic Programming**
+
 **AstraLink** é um sistema em Python puro que modela uma rede de economia espacial por meio de um **grafo ponderado**. O projeto conecta bases terrestres, satélites, relés orbitais, fábricas em microgravidade, depósitos de propelente, hubs lunares, minas, robôs e infraestrutura de comunicação profunda para calcular rotas estratégicas entre ativos.
 
 A proposta acadêmica do sistema é demonstrar como **grafos** e **Programação Dinâmica** podem apoiar decisões logísticas em cenários complexos. No AstraLink, cada vértice representa um ativo espacial ou terrestre, enquanto cada aresta representa uma conexão operacional com pesos de **tempo**, **custo**, **risco**, **energia** e **distância**.
