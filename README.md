@@ -177,7 +177,10 @@ O AstraLink exporta rotas em **JSON** e **CSV**. O formato JSON é útil para sa
 
 ## Referências
 
-[1]: https://www.geeksforgeeks.org/dsa/floyd-warshall-algorithm-dp-16/ "GeeksforGeeks — Floyd Warshall Algorithm"
-[2]: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm "Wikipedia — Dijkstra's algorithm"
-[3]: https://docs.python.org/3/library/json.html "Python Documentation — json"
-[4]: https://docs.python.org/3/library/csv.html "Python Documentation — csv"
+1. Floyd-Warshall Algorithm – https://www.geeksforgeeks.org/dsa/floyd-warshall-algorithm-dp-16/
+
+2. Dijkstra's Algorithm – https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+
+3. Python JSON Documentation – https://docs.python.org/3/library/json.html
+
+4. Python CSV Documentation – https://docs.python.org/3/library/csv.html
